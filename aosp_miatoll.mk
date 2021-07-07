@@ -23,6 +23,9 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 # Live Wallpapers
 TARGET_INCLUDE_LIVE_WALLPAPERS := true
 
+# Face unlock
+TARGET_FACE_UNLOCK := true
+
 # Fingerprint
 BUILD_FINGERPRINT := google/redfin/redfin:11/RQ3A.210605.005/7349499:user/release-keys
 BUILD_DESCRIPTION := redfin-user 11 RQ3A.210605.005 7349499 release-keys

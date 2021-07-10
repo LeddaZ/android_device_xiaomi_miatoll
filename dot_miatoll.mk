@@ -10,8 +10,6 @@ $(call inherit-product, device/xiaomi/miatoll/device.mk)
 # Inherit some common DotOS stuff
 $(call inherit-product, vendor/dot/config/common.mk)
 
-DOT_OFFICIAL := true
-
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 

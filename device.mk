@@ -383,6 +383,11 @@ PRODUCT_COPY_FILES += \
 # Project ID Quota
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 
+# Protobuf
+PRODUCT_PACKAGES += \
+    libprotobuf-cpp-full \
+    libprotobuf-cpp-full-3.9.1-vendorcompat
+
 # QMI
 PRODUCT_PACKAGES += \
     libjson \
@@ -396,7 +401,6 @@ PRODUCT_PACKAGES += \
     android.hardware.radio@1.6.vendor \
     android.hardware.radio.config@1.3.vendor \
     android.hardware.radio.deprecated@1.0.vendor \
-    libprotobuf-cpp-full \
     librmnetctl \
     libwpa_client \
     libxml2

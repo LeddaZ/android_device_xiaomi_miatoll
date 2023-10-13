@@ -142,7 +142,7 @@ vendor.display.svi.config=1
 vendor.display.svi.config_path=/vendor/etc/SVIConfig.xml
 
 # DRM
-drm.service.enabled=false
+drm.service.enabled=true
 
 # Fwk detect
 ro.vendor.qti.va_aosp.support=1

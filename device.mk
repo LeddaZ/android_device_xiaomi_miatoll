@@ -72,7 +72,7 @@ PRODUCT_PACKAGES += \
     libgui_vendor \
     libmegface \
     libMegviiFacepp-0.5.2 \
-    libstdc++.vendor \
+    libstdc++_vendor \
     vendor.qti.hardware.camera.device@1.0.vendor
 
 # DebugFS

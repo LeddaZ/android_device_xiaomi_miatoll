@@ -182,10 +182,6 @@ PRODUCT_PACKAGES += \
     android.hardware.ir@1.0-impl \
     android.hardware.ir@1.0-service
 
-# Kernel
-PRODUCT_COPY_FILES += \
-    device/xiaomi/miatoll-kernel/Image:kernel
-
 # Keymaster
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0.vendor \

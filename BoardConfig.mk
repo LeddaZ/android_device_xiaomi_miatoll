@@ -57,10 +57,9 @@ TARGET_SCREEN_DENSITY := 420
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_BOOT_HEADER_VERSION := 2
 BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
-BOARD_PREBUILT_DTBIMAGE_DIR := device/xiaomi/miatoll-kernel
 
 # DTBO
-BOARD_PREBUILT_DTBOIMAGE := device/xiaomi/miatoll-kernel/dtbo.img
+BOARD_KERNEL_SEPARATED_DTBO := true
 
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/configs/config.fs
@@ -102,6 +101,11 @@ BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_KERNEL_PAGESIZE := 4096
 BOARD_RAMDISK_USE_LZ4 := true
+
+TARGET_KERNEL_ADDITIONAL_FLAGS += LD=ld.lld AR=llvm-ar NM=llvm-nm STRIP=llvm-strip OBJCOPY=llvm-objcopy OBJDUMP=llvm-objdump
+TARGET_KERNEL_ARCH := arm64
+TARGET_KERNEL_CONFIG := vendor/xiaomi/miatoll_defconfig
+TARGET_KERNEL_SOURCE := kernel/xiaomi/sm6250
 
 # OTA
 TARGET_OTA_ASSERT_DEVICE := curtana,excalibur,gram,joyeuse,miatoll

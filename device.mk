@@ -4,15 +4,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# 64-bit only configuration
-DEVICE_IS_64BIT_ONLY ?= $(if $(filter %_64,$(TARGET_PRODUCT)),true,false)
-
-ifeq ($(DEVICE_IS_64BIT_ONLY),true)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit_only.mk)
-else
-$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
-endif
-
 # Audio
 PRODUCT_PACKAGES += \
     audio.bluetooth.default \

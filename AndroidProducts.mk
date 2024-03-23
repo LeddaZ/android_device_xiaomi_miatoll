@@ -11,9 +11,9 @@ PRODUCT_MAKEFILES := \
 
 # Lunch targets
 COMMON_LUNCH_CHOICES := \
-    statix_miatoll-user \
-    statix_miatoll-userdebug \
-    statix_miatoll-eng \
-    statix_miatoll_64-user \
-    statix_miatoll_64-userdebug \
-    statix_miatoll_64-eng
+    statix_miatoll-ap1a-user \
+    statix_miatoll-ap1a-userdebug \
+    statix_miatoll-ap1a-eng \
+    statix_miatoll_64-ap1a-user \
+    statix_miatoll_64-ap1a-userdebug \
+    statix_miatoll_64-ap1a-eng

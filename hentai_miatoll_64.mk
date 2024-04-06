@@ -8,4 +8,4 @@
 $(call inherit-product, device/xiaomi/miatoll/statix_miatoll.mk)
 
 # Device identifier
-PRODUCT_NAME := statix_miatoll_64
+PRODUCT_NAME := hentai_miatoll_64

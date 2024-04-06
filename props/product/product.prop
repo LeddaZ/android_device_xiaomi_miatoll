@@ -1,5 +1,8 @@
 # Variant specific props
 import /product/etc/product.${ro.boot.hwname}.prop
 
-# Force dark boot animation
+# Boot animation theming
 ro.boot.theme=1
+
+# Enable one-handed mode
+ro.support_one_handed_mode=true

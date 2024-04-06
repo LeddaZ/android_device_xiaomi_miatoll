@@ -203,6 +203,7 @@ PRODUCT_COPY_FILES += \
     device/xiaomi/miatoll-kernel/Image:kernel
 
 PRODUCT_VENDOR_KERNEL_HEADERS += hardware/qcom-caf/sm8150/kernel-headers
+TARGET_KERNEL_VERSION := 4.14
 
 # Keymaster
 PRODUCT_PACKAGES += \

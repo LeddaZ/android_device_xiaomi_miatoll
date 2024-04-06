@@ -6,3 +6,7 @@ ro.boot.theme=1
 
 # Enable one-handed mode
 ro.support_one_handed_mode=true
+
+# RKPD
+remote_provisioning.enable_rkpd=true
+remote_provisioning.hostname=remoteprovisioning.googleapis.com

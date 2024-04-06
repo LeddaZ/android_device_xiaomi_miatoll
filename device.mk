@@ -202,7 +202,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     device/xiaomi/miatoll-kernel/Image:kernel
 
-PRODUCT_VENDOR_KERNEL_HEADERS := hardware/qcom-caf/sm8150/kernel-headers
+PRODUCT_VENDOR_KERNEL_HEADERS += hardware/qcom-caf/sm8150/kernel-headers
 
 # Keymaster
 PRODUCT_PACKAGES += \

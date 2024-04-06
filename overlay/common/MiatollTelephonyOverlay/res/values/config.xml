@@ -43,7 +43,4 @@
     <!-- The package name for the platform number verification supplier app. -->
     <string name="platform_number_verification_package" translatable="false">com.google.android.gms</string>
 
-    <!-- The package name for the platform carrier config app, bundled with system image. -->
-    <string name="platform_carrier_config_package" translatable="false">com.google.android.carrier</string>
-
 </resources>

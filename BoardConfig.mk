@@ -85,12 +85,9 @@ DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/configs/vintf/manifest.xml
 # Kernel
 BOARD_KERNEL_CMDLINE += \
     androidboot.console=ttyMSM0 \
-    androidboot.flash.locked=1 \
     androidboot.hardware=qcom \
     androidboot.memcg=1 \
     androidboot.usbcontroller=a600000.dwc3 \
-    androidboot.vbmeta.device_state=locked \
-    androidboot.verifiedbootstate=green \
     cgroup.memory=nokmem,nosocket \
     console=ttyMSM0,115200n8 \
     earlycon=msm_geni_serial,0xa88000 \

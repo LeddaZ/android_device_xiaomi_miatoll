@@ -4,12 +4,12 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.wifi.resources.curtanaindia"
+    package="com.google.android.wifi.resources.curtanaindia"
     android:versionCode="1"
     android:versionName="1.0">
     <application android:hasCode="false" />
     <overlay
-      android:targetPackage="com.android.wifi.resources"
+      android:targetPackage="com.google.android.wifi.resources"
       android:targetName="WifiCustomization"
       android:isStatic="true"
       android:requiredSystemPropertyName="ro.boot.hwc"

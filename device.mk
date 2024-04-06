@@ -202,6 +202,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     device/xiaomi/miatoll-kernel/Image:kernel
 
+PRODUCT_VENDOR_KERNEL_HEADERS := hardware/qcom-caf/sm8150/kernel-headers
+
 # Keymaster
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0.vendor \

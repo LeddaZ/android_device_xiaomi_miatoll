@@ -53,11 +53,3 @@ debug.sf.enable_hwc_vds=1
 persist.debug.wfd.enable=1
 persist.sys.wfd.virtual=0
 vendor.sys.video.disable.ubwc=1
-
-# Device mask
-ro.build.fingerprint=google/barbet/barbet:14/AP1A.240405.002/11480754:user/release-keys
-ro.product.brand=google
-ro.product.device=barbet
-ro.product.manufacturer=Google
-ro.product.model=Pixel 5a
-ro.product.name=barbet

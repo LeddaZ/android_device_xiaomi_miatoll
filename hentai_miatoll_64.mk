@@ -5,7 +5,7 @@
 #
 
 # Inherit base configuration
-$(call inherit-product, device/xiaomi/miatoll/statix_miatoll.mk)
+$(call inherit-product, device/xiaomi/miatoll/hentai_miatoll.mk)
 
 # Device identifier
 PRODUCT_NAME := hentai_miatoll_64

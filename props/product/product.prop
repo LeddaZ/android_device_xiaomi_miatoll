@@ -1,2 +1,5 @@
 # Variant specific props
 import /product/etc/product.${ro.boot.hwname}.prop
+
+# Force dark boot animation
+ro.boot.theme=1

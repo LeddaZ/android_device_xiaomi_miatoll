@@ -2,7 +2,7 @@
 # curtana (unpinned): RKQ1.211019.001/V14.0.4.0.SJWMIXM
 # excalibur: RKQ1.211019.001/V14.0.2.0.SJXINXM
 # joyeuse: RKQ1.211019.001/V14.0.3.0.SJZMIXM
-# komodo: AD1A.240530.047/12143574
+# komodo: AD1A.240905.004/12196292
 # sunfish: TQ3A.230805.001.S1/10786265
 # vayu: RKQ1.200826.002/V14.0.3.0.TJUMIXM
 
@@ -715,7 +715,7 @@ product/etc/CarrierSettings/zain_bh.pb|6d8ef752a964bdd30c47ffb491a5244de29806f9
 product/etc/CarrierSettings/zain_kw.pb|f30d48221d4e86f0b2b066b2347b9626def2a26f
 product/etc/CarrierSettings/zain_sa.pb|0aa73b7eeb0f3d0cb83ac11cca967d406664ebd4
 product/etc/CarrierSettings/zeop_re.pb|fcbe6b769292a90cc79a4caf3eae9781960c8809
-product/priv-app/CarrierSettings_signed_47.0.602606545/CarrierSettings_signed_47.0.602606545.apk;PRESIGNED|e33b75c75322af98c74d68b2500077bb2264374c
+product/priv-app/CarrierSettings_signed_47.0.602606545/CarrierSettings_signed_47.0.602606545.apk;PRESIGNED|ec342d264513b1a29435b29686db75efaf7fcf4a
 
 # CDSP
 vendor/bin/cdsprpcd

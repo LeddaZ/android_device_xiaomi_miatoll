@@ -90,6 +90,11 @@ function blob_fixup() {
             [ "$2" = "" ] && return 0
             grep -q "libcamera_provider_shim.so" "${2}" || "${PATCHELF}" --add-needed "libcamera_provider_shim.so" "${2}"
             ;;
+        # Patch widevine service to load libcrypto-v34
+        vendor/lib64/libwvhidl.so)
+            [ "$2" = "" ] && return 0
+            sed -i "s|libcrypto.so|v34crypto.so|g" "${2}"
+            ;;
             *)
                 return 1
                 ;;

@@ -158,11 +158,15 @@ vendor.display.svi.config_path=/vendor/etc/SVIConfig.xml
 # DRM
 drm.service.enabled=true
 
-# Fwk detect
-ro.vendor.qti.va_aosp.support=1
+# Fingerprint
+ro.vendor.fingerprint.type=side
+ro.vendor.fingerprint.sensor_location=1080|760|100|local:4630947024726438529
 
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/frp
+
+# Fwk detect
+ro.vendor.qti.va_aosp.support=1
 
 # HWUI
 debug.hwui.target_cpu_time_percent=30
